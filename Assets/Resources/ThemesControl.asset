@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: ThemesControl
+  m_EditorClassIdentifier: Assembly-CSharp:UI:ThemesControl
+  themes:
+  - groundColor: {r: 0.19215687, g: 0.03137255, b: 0.03137255, a: 1}
+    bordersColor: {r: 0.83137256, g: 0.39215687, b: 0.5647059, a: 1}
+    sideColor: {r: 0.3882353, g: 0.14509805, b: 0.22352941, a: 1}
+    objectColor: {r: 1, g: 1, b: 1, a: 1}
+    obstacleColor: {r: 0.45490196, g: 1, b: 0.08235294, a: 1}
+    progressFillColor: {r: 1, g: 0.52156866, b: 0.6313726, a: 1}
+    cameraColor: {r: 0.9411765, g: 0.9254902, b: 0.7137255, a: 1}
+    fadeColor: {r: 0.6039216, g: 0.3647059, b: 0.0627451, a: 0.5529412}
+  - groundColor: {r: 0.18431373, g: 0.02745098, b: 0.32156864, a: 1}
+    bordersColor: {r: 0.5529412, g: 0.39215687, b: 0.83137256, a: 1}
+    sideColor: {r: 0.25490198, g: 0.14509805, b: 0.3882353, a: 1}
+    objectColor: {r: 1, g: 1, b: 1, a: 1}
+    obstacleColor: {r: 1, g: 0.06666667, b: 0.2784314, a: 1}
+    progressFillColor: {r: 0.84705883, g: 0.41960785, b: 1, a: 1}
+    cameraColor: {r: 0.7137255, g: 0.9411765, b: 0.7882353, a: 1}
+    fadeColor: {r: 0, g: 0.50980395, b: 0.6117647, a: 0.5529412}
+  - groundColor: {r: 0.039215688, g: 0.09019608, b: 0.18431373, a: 1}
+    bordersColor: {r: 0.30588236, g: 0.42352942, b: 0.77254903, a: 1}
+    sideColor: {r: 0.14509805, g: 0.16862746, b: 0.3882353, a: 1}
+    objectColor: {r: 1, g: 1, b: 1, a: 1}
+    obstacleColor: {r: 1, g: 0.3882353, b: 0.05882353, a: 1}
+    progressFillColor: {r: 0.3372549, g: 0.9098039, b: 0.93333334, a: 1}
+    cameraColor: {r: 0.7607843, g: 0.9764706, b: 0.9607843, a: 1}
+    fadeColor: {r: 0.37254903, g: 0.0627451, b: 0.6039216, a: 0.5529412}
+  - groundColor: {r: 0.1290056, g: 0.3132075, b: 0.07977924, a: 1}
+    bordersColor: {r: 0.3034094, g: 0.89433956, b: 0.17380556, a: 1}
+    sideColor: {r: 0.17621107, g: 0.3962264, b: 0.14279103, a: 1}
+    objectColor: {r: 1, g: 1, b: 1, a: 1}
+    obstacleColor: {r: 0.9612327, g: 0.21944453, b: 0.97735846, a: 1}
+    progressFillColor: {r: 0.4044711, g: 0.9245283, b: 0.25642577, a: 1}
+    cameraColor: {r: 0.57769996, g: 0.9547169, b: 0.5241936, a: 1}
+    fadeColor: {r: 0.557188, g: 0.04311133, b: 0.6528301, a: 0.5529412}
+  - groundColor: {r: 0.3509434, g: 0.19390354, b: 0.09203984, a: 1}
+    bordersColor: {r: 0.8792453, g: 0.5453598, b: 0.24386613, a: 1}
+    sideColor: {r: 0.4415095, g: 0.26557404, b: 0.072474174, a: 1}
+    objectColor: {r: 1, g: 1, b: 1, a: 1}
+    obstacleColor: {r: 0.1991099, g: 0.3060827, b: 0.8867924, a: 1}
+    progressFillColor: {r: 0.90188676, g: 0.52842546, b: 0.202499, a: 1}
+    cameraColor: {r: 0.9411765, g: 0.9254902, b: 0.7137255, a: 1}
+    fadeColor: {r: 0.13443208, g: 0.7488325, b: 0.90188676, a: 0.5529412}
