@@ -23,33 +23,38 @@ MonoBehaviour:
     color: {r: 0, g: 0.9843138, b: 1, a: 1}
     shopItemState: 0
     alreadyPutOn: 0
-  - id: 0
+  - id: 2
     price: 0
     color: {r: 0, g: 0, b: 0, a: 1}
     shopItemState: 1
     alreadyPutOn: 0
-  - id: 2
+  - id: 3
     price: 500
     color: {r: 0.21960786, g: 1, b: 0, a: 1}
     shopItemState: 0
     alreadyPutOn: 0
-  - id: 3
+  - id: 4
     price: 1000
     color: {r: 1, g: 0.9294118, b: 0, a: 1}
     shopItemState: 0
     alreadyPutOn: 0
-  - id: 0
+  - id: 5
     price: 0
     color: {r: 1, g: 0, b: 0, a: 1}
     shopItemState: 1
     alreadyPutOn: 0
-  - id: 4
+  - id: 6
     price: 3000
     color: {r: 0.03137255, g: 0, b: 1, a: 1}
     shopItemState: 0
     alreadyPutOn: 0
-  - id: 5
+  - id: 7
     price: 4000
     color: {r: 1, g: 0, b: 0.6431373, a: 1}
     shopItemState: 0
+    alreadyPutOn: 0
+  - id: 8
+    price: 0
+    color: {r: 0.5127034, g: 0, b: 1, a: 1}
+    shopItemState: 1
     alreadyPutOn: 0

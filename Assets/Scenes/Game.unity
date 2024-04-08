@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44407338, g: 0.49348664, b: 0.57292205, a: 1}
+  m_IndirectSpecularColor: {r: 0.4440728, g: 0.4934861, b: 0.5729216, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2662,8 +2662,8 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 705172099}
-  - {fileID: 1777114865}
   - {fileID: 592003731}
+  - {fileID: 1777114865}
   - {fileID: 438666434}
   - {fileID: 159386784}
   - {fileID: 623474031}
@@ -3046,11 +3046,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8135886326569738822, guid: 56fae09712773584fb63896d473a98ee, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8135886326569738822, guid: 56fae09712773584fb63896d473a98ee, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8135886326569738822, guid: 56fae09712773584fb63896d473a98ee, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3115,6 +3115,14 @@ PrefabInstance:
     - target: {fileID: 8135886327475159579, guid: 56fae09712773584fb63896d473a98ee, type: 3}
       propertyPath: m_SizeDelta.y
       value: 900
+      objectReference: {fileID: 0}
+    - target: {fileID: 8135886327475159579, guid: 56fae09712773584fb63896d473a98ee, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8135886327475159579, guid: 56fae09712773584fb63896d473a98ee, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 8135886327475159579, guid: 56fae09712773584fb63896d473a98ee, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -8111,21 +8119,26 @@ MonoBehaviour:
   - {fileID: 874155028550421548, guid: ba413dfa710c8074291809ce6d3f8793, type: 3}
   - {fileID: 764415250051447254, guid: 60e4b096cbed7ee468f8360c3701ba7e, type: 3}
   - {fileID: 945320501581912196, guid: 3a38195d1feb74c4890023ea05d4534d, type: 3}
+  - {fileID: 3783897647233241744, guid: 41f5e560d9d1a4c49b2ffe1b1413356e, type: 3}
   - {fileID: 3655583167854703802, guid: 36ac500b4c4522e4bb538aefd568c436, type: 3}
   - {fileID: 94840443317554892, guid: 01c1214eff5206a4087d95ffc9d4b26f, type: 3}
   - {fileID: 4107225785672749198, guid: 12cc0ff6595fae64a8ad5073608698ef, type: 3}
   - {fileID: 7436073343152488961, guid: 43c12e66c41ef9947b51cd056591325c, type: 3}
   - {fileID: 2264862152361457267, guid: 677b3afc09d69fe419a5b4e5d1aaf503, type: 3}
   - {fileID: 3830278518557478026, guid: 5bef273e380ab7143b99a7f0d9acffb1, type: 3}
+  - {fileID: 866611089682924444, guid: 2bdcfd8d76f3e574caa7d1078b91fb2d, type: 3}
   - {fileID: 4859812945446481417, guid: 573147a4676b3724e8204b36fae768c7, type: 3}
   - {fileID: 71710703511502755, guid: 1118c111bd4adce489db559224067f17, type: 3}
   - {fileID: 851157271248582674, guid: e1b4f5d3b64025945b730222ac56c8f6, type: 3}
   - {fileID: 2237256461882556251, guid: a0de0f168c9706e47939348a90489cb2, type: 3}
   - {fileID: 4278859215806071273, guid: da192b3fecd004048af1558b3ff0ebbd, type: 3}
+  - {fileID: 8803048813340705760, guid: 3a21f32394277384bb8e30a3cc3c71e9, type: 3}
   - {fileID: 2241904235620989757, guid: 7f5b60b395d152e408fe63dad7d39c03, type: 3}
   - {fileID: 1534138778258500068, guid: 1607b52b1fd4e894e9c114149a82b997, type: 3}
+  - {fileID: 8803048813340705760, guid: da33099ffed45fe4d81aecefe293fdb6, type: 3}
   - {fileID: 2168828288363921059, guid: ad8af7c3e5da1714dbb4f6bd60bf1a84, type: 3}
   - {fileID: 960791247812709012, guid: f3e559f070b31374aaaedc341447a45d, type: 3}
+  - {fileID: 5957619749057020848, guid: 1109108f9ea82b74bb651748c419ea11, type: 3}
   randomLevels:
   - {fileID: 227298440534583073, guid: 19b8690efa790df4bb4d38729306867a, type: 3}
   - {fileID: 2559398806294017877, guid: 2baca0399f2fe164eaea977ed7fc7eff, type: 3}
@@ -8167,6 +8180,11 @@ MonoBehaviour:
   - {fileID: 4107225785672749198, guid: 12cc0ff6595fae64a8ad5073608698ef, type: 3}
   - {fileID: 7436073343152488961, guid: 43c12e66c41ef9947b51cd056591325c, type: 3}
   - {fileID: 2264862152361457267, guid: 677b3afc09d69fe419a5b4e5d1aaf503, type: 3}
+  - {fileID: 866611089682924444, guid: 2bdcfd8d76f3e574caa7d1078b91fb2d, type: 3}
+  - {fileID: 3783897647233241744, guid: 41f5e560d9d1a4c49b2ffe1b1413356e, type: 3}
+  - {fileID: 8803048813340705760, guid: 3a21f32394277384bb8e30a3cc3c71e9, type: 3}
+  - {fileID: 8803048813340705760, guid: da33099ffed45fe4d81aecefe293fdb6, type: 3}
+  - {fileID: 5957619749057020848, guid: 1109108f9ea82b74bb651748c419ea11, type: 3}
   blackHoleStartPosition: {fileID: 2037772858}
   blackHole: {fileID: 34023682}
   groundBorderSprite: {fileID: 531672030}
@@ -8214,6 +8232,14 @@ MonoBehaviour:
     progressFillColor: {r: 0.90188676, g: 0.52842546, b: 0.202499, a: 1}
     cameraColor: {r: 0.9411765, g: 0.9254902, b: 0.7137255, a: 1}
     fadeColor: {r: 0.13443208, g: 0.7488325, b: 0.90188676, a: 0.5529412}
+  - groundColor: {r: 0.118558034, g: 0.34901962, b: 0.09019608, a: 1}
+    bordersColor: {r: 0.795276, g: 0.8784314, b: 0.24313723, a: 1}
+    sideColor: {r: 0.44246194, g: 0.44313726, b: 0.07058824, a: 1}
+    objectColor: {r: 1, g: 1, b: 1, a: 1}
+    obstacleColor: {r: 0.3714567, g: 0.2, b: 0.8862745, a: 1}
+    progressFillColor: {r: 0.9012671, g: 0.9019608, b: 0.20392153, a: 1}
+    cameraColor: {r: 0.800708, g: 0.9411765, b: 0.7137255, a: 1}
+    fadeColor: {r: 0.13333333, g: 0.35101944, b: 0.9019608, a: 0.5529412}
 --- !u!1 &1971434989
 GameObject:
   m_ObjectHideFlags: 0
